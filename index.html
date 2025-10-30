@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Блог Дарьи Роик</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Блог Дарьи Роик</h1>
+    <p>Учусь в сфере IT и делюсь своими интересами и идеями</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">Учёба</a></li>
+      <li><a href="#">Хобби</a></li>
+      <li><a href="#">Контакты</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <main>
+      <!-- Аккордеон вместо статичных статей -->
+      <section class="accordion">
+        <div class="accordion-item">
+          <h2 class="accordion-title">Моя учеба</h2>
+          <div class="accordion-content">
+            <p>Я изучаю IT и программирование, люблю создавать сайты и изучать новые технологии. Сейчас работаю над проектом для учебы — это помогает развивать логику и внимательность.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-title">Мои увлечения</h2>
+          <div class="accordion-content">
+            <p>В свободное время я рисую, слушаю музыку и читаю книги. Также мне интересно пробовать себя в дизайне и создании визуальных проектов.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-title">Мои проекты</h2>
+          <div class="accordion-content">
+            <p>Недавно сделала адаптивный блог, изучила Grid, Flexbox и семантическую разметку. Сейчас добавляю JavaScript — кнопки, модалки, фильтры!</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Фотогалерея -->
+      <section class="gallery-section">
+        <h2>Мои работы и вдохновение</h2>
+        <div class="filters">
+          <button data-category="all" class="active">Все</button>
+          <button data-category="design">Дизайн</button>
+          <button data-category="code">Код</button>
+        </div>
+        <div class="gallery">
+          <img src="https://picsum.photos/400/300?random=10" data-category="design" alt="Дизайн 1">
+          <img src="https://picsum.photos/400/300?random=11" data-category="code" alt="Код 1">
+          <img src="https://picsum.photos/400/300?random=12" data-category="design" alt="Дизайн 2">
+          <img src="https://picsum.photos/400/300?random=13" data-category="code" alt="Код 2">
+          <img src="https://picsum.photos/400/300?random=14" data-category="design" alt="Дизайн 3">
+          <img src="https://picsum.photos/400/300?random=15" data-category="code" alt="Код 3">
+        </div>
+      </section>
+    </main>
+
+    <aside>
+      <h3>Обо мне</h3>
+      <p>Меня зовут Дарья Роик. Я студентка, увлекаюсь технологиями, творчеством и саморазвитием.</p>
+      <h3>Интересы</h3>
+      <ul>
+        <li>Программирование</li>
+        <li>Музыка</li>
+        <li>Дизайн</li>
+      </ul>
+    </aside>
+  </div>
+
+  <footer>
+    <p>© 2025 Дарья Роик. Все права защищены.</p>
+  </footer>
+
+  <!-- Кнопка "Наверх" -->
+  <button id="scrollTopBtn" class="scroll-btn">↑</button>
+
+  <!-- Модальное окно -->
+  <div id="modal" class="modal">
+    <span class="close">×</span>
+    <img class="modal-content" id="modalImg" alt="Увеличенное изображение">
+  </div>
+
+  <!-- Подключаем JS -->
+  <script src="script.js"></script>
+</body>
+</html>
