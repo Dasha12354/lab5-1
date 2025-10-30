@@ -23,9 +23,13 @@
 - Модальное окно с кликом по фону.
 
 ## Скриншоты:
-![Кнопка наверх](screenshot1.png)
-![Аккордеон](screenshot2.png)
-![Галерея](screenshot3.png)
-![Модалка](screenshot4.png)
+<img width="136" height="108" alt="image" src="https://github.com/user-attachments/assets/798723c9-8a0a-47c3-9961-490cd95e1ad0" />
+
+<img width="859" height="411" alt="image" src="https://github.com/user-attachments/assets/1eb0966c-f3d2-4950-9064-0f398e7174ad" />
+
+<img width="855" height="629" alt="image" src="https://github.com/user-attachments/assets/fe54ff23-f09b-4b6a-ae93-967e2fa96c1f" />
+
+<img width="1170" height="871" alt="image" src="https://github.com/user-attachments/assets/c1d648ad-6a15-4d93-8e31-c08d4aa43e59" />
+
 
 > Сделай скриншоты (PrintScreen → Paint → сохрани в папку как `screenshot1.png` и т.д.)
