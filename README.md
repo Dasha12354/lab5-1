@@ -32,4 +32,5 @@
 <img width="1170" height="871" alt="image" src="https://github.com/user-attachments/assets/c1d648ad-6a15-4d93-8e31-c08d4aa43e59" />
 
 
-> Сделай скриншоты (PrintScreen → Paint → сохрани в папку как `screenshot1.png` и т.д.)
+
+
